@@ -57,17 +57,26 @@
     </div>
     
     <div class="content-container container">
+        <h3 class="mb-5 text-center">Let's get in touch!</h3>
         <div class="row mb-3">
-            <div class="col-lg-4">
-               <form action="post" class="m-5">
-                <input type="text" placeholder="Name" class="mb-3"/>
-                <input type="email" placeholder="Email@gmail.com" class="mb-3">
-                <textarea class="mb-3" name="about" id="about" cols="30" rows="10" placeholder="why you want to contact me ?"></textarea>
-               </form>
-            </div>
-            <div class="col-lg-8">
+            <div class="col-md-6">
+                <form action="https://formspree.io/f/mwkalajy" method="POST" class="border p-3 rounded mb-3">
+                  <div class="mb-3">
+                    <label class="form-label"> Your email: </label>
+                    <input type="email" name="_replyto" class="form-control" required="" autofocus="">
+                  </div>
+                  <div class="mb-3">
+                    <label class="form-label"> Your message: </label>
+                    <textarea name="message" class="form-control" required=""></textarea>
+                  </div>
+
+                  <!-- your other form fields go here -->
+
+                  <button type="submit" class="btn btn-branding">Send</button>
+                </form>
+              </div>
+            <div class="col-lg-6">
                 <div class="content text-center m-3">
-                    <h1 class="mb-4">Let's get in touch!</h1>
                     <h3>Email</h3>
                     <p><a href="mailto:kmyatmon20@gmail.com">kmyatmon@gmail.com</a></p>
                     <h3>Telegram</h3>
